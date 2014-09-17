@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHView", "RHView\RHView.csproj", "{90F207FA-A9C9-4966-B249-25BCF998C7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.Routes.Core", "Hermes.Routes.Core\Hermes.Routes.Core.csproj", "{F10F475E-5FEF-4498-8961-0EAFDB84EADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHViewUnit", "RHViewUnit\RHViewUnit.csproj", "{BD28BD77-0358-416F-A289-4813F338557E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{242AC20E-3359-482A-A8B9-7D68C2842937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8448954D-42B6-4CA9-BF13-0A8F1A620C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Descktop", "Descktop", "{F7519DA4-FE8A-4A6F-BD27-DE696AA56B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHView.MapControl", "RHView.MapControl\RHView.MapControl.csproj", "{3502C97D-DB82-421E-BE7E-41A17A11F558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMap.NET.WindowsPresentation", "..\..\..\..\Desktop\greatmaps\greatmaps_3660acb94e16\GMap.NET.WindowsPresentation\GMap.NET.WindowsPresentation.csproj", "{644FE7D4-0184-400F-B2D7-99CB41360658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMap.NET.Core", "..\..\..\..\Desktop\greatmaps\greatmaps_3660acb94e16\GMap.NET.Core\GMap.NET.Core.csproj", "{D0C39D9D-BED0-418B-9A5E-713176CAF40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHView.RoutesList.Module", "RHView.RoutesList.Module\RHView.RoutesList.Module.csproj", "{ABF4EA08-581C-4FD4-8031-36926E57DE41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{505A156E-E353-419F-BBA1-D18A15981F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F207FA-A9C9-4966-B249-25BCF998C7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F207FA-A9C9-4966-B249-25BCF998C7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F207FA-A9C9-4966-B249-25BCF998C7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F207FA-A9C9-4966-B249-25BCF998C7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10F475E-5FEF-4498-8961-0EAFDB84EADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10F475E-5FEF-4498-8961-0EAFDB84EADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10F475E-5FEF-4498-8961-0EAFDB84EADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10F475E-5FEF-4498-8961-0EAFDB84EADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD28BD77-0358-416F-A289-4813F338557E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD28BD77-0358-416F-A289-4813F338557E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD28BD77-0358-416F-A289-4813F338557E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD28BD77-0358-416F-A289-4813F338557E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3502C97D-DB82-421E-BE7E-41A17A11F558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3502C97D-DB82-421E-BE7E-41A17A11F558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3502C97D-DB82-421E-BE7E-41A17A11F558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3502C97D-DB82-421E-BE7E-41A17A11F558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644FE7D4-0184-400F-B2D7-99CB41360658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644FE7D4-0184-400F-B2D7-99CB41360658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644FE7D4-0184-400F-B2D7-99CB41360658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644FE7D4-0184-400F-B2D7-99CB41360658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C39D9D-BED0-418B-9A5E-713176CAF40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C39D9D-BED0-418B-9A5E-713176CAF40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C39D9D-BED0-418B-9A5E-713176CAF40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C39D9D-BED0-418B-9A5E-713176CAF40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF4EA08-581C-4FD4-8031-36926E57DE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF4EA08-581C-4FD4-8031-36926E57DE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF4EA08-581C-4FD4-8031-36926E57DE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF4EA08-581C-4FD4-8031-36926E57DE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90F207FA-A9C9-4966-B249-25BCF998C7F5} = {F7519DA4-FE8A-4A6F-BD27-DE696AA56B1F}
+		{F10F475E-5FEF-4498-8961-0EAFDB84EADF} = {8448954D-42B6-4CA9-BF13-0A8F1A620C6E}
+		{BD28BD77-0358-416F-A289-4813F338557E} = {242AC20E-3359-482A-A8B9-7D68C2842937}
+		{3502C97D-DB82-421E-BE7E-41A17A11F558} = {8448954D-42B6-4CA9-BF13-0A8F1A620C6E}
+		{644FE7D4-0184-400F-B2D7-99CB41360658} = {505A156E-E353-419F-BBA1-D18A15981F20}
+		{D0C39D9D-BED0-418B-9A5E-713176CAF40C} = {505A156E-E353-419F-BBA1-D18A15981F20}
+		{ABF4EA08-581C-4FD4-8031-36926E57DE41} = {8448954D-42B6-4CA9-BF13-0A8F1A620C6E}
+	EndGlobalSection
+EndGlobal
