@@ -1,0 +1,39 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+!references
+Solution/packages/*
+bin
+obj
+
+*.pdb
+*.sst
+# mstest test results
+TestResults
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.suo
+*.user
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+*.dll
+*.swp
+# Standard to msysgit
+*.doc  diff=astextplain
+*.DOC  diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF  diff=astextplain
+*.rtf  diff=astextplain
+*.RTF  diff=astextplain
+*.bin
+*.log
+*.crc
+*.dat
